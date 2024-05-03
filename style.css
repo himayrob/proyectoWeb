@@ -24,7 +24,8 @@ body{background: #09063b
 .jump{
 display: flex;
 /* background: red; */
-justify-content: space-evenly;
+justify-content: center;
+gap: 80px;
 margin: 0 70 px;
 margin-bottom: 70px;
 }
@@ -41,8 +42,8 @@ justify-content: center;
     color: #fff;
 }
 .combo img{
-    height:350x ;
-    width: 350px;
+    height:450x ;
+    width: 450px;
     /* background-color: blue; */
 }
 .jump__title button{
@@ -53,12 +54,13 @@ justify-content: center;
 .about{
     display: flex;
     /* background: red; */
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 80px;
    }
 .about__img img{
-        height:350x ;
-        width: 350px;
+        height:450x ;
+        width: 450px;
         /* background: blue    ; */
 }
 
@@ -86,4 +88,101 @@ justify-content: center;
         color: #fff;
         background-color: #ff702a;   
 }
+.food__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: red;
+}
+.food__menu h6{
+    color: #ff702a;
+    font-size: 25px;   
+}
+.food__menu h2{
+    font-size: 65px;
+    color: #fff;
+}
+.food__menu__items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background: green;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: violet;
+}
+.services h5{
+    color: #ff702a;
+    font-size: 25px;   
+}
+.services h2{
+    font-size: 65px;
+    color: #fff;
+}
+.domicilios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    background: green;
+    margin: 90px;
+
+}
+.options{
+    background: blue;
+}
+.options img{
+    width: 100;
+    height: 100;
+    background: red;
+}
+.services h6{
+    font-size: 15PX;
+    color: #fff;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border: solid var(--black); 
+ background: red;
+ margin: 80px 60px 80px 60px;
+ gap: 50px;
+ background-color: #fff;
+ padding:90px;
+}
+.slogan h2{
+    text-align: center;
+}
+.slogan button{
+    font-size: 40px;
+    color: #fff;
+    background-color: #ff702a;   
+}
+.footer
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ color: #fff;
+}
+.footer__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.footer h2{
+    color: #ff702a;
+    font-size: 50px;
+    
+}
+
 
