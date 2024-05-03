@@ -1,0 +1,23 @@
+body{background: #09063b
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* background: red;     */
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.first__element h2{
+    color: #ff702a;
+}
+.last__elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
